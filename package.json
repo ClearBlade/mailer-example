@@ -24,7 +24,7 @@
     "name": "mailer-example",
     "private": false,
     "prog_lang": [],
-    "protocols": [],
+    "protocols": ["smtp"],
     "things": [],
     "version": "1.0.0"
 }
