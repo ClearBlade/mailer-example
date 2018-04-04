@@ -1,0 +1,29 @@
+{
+    "author": {
+        "email": "rreinold@clearblade.com"
+    },
+    "clouds": [],
+    "description": "Example for sending SMTP based emails from a ClearBlade service",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://i.imgur.com/7VOz2dQ.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "email",
+        "mail",
+        "mailer",
+        "smtp",
+        "alert",
+        "notify",
+        "nofications"
+    ],
+    "license": "MIT",
+    "name": "mailer-example",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "1.0.0"
+}
