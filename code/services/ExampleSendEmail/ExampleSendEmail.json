@@ -1,0 +1,10 @@
+{
+    "current_version": 53,
+    "dependencies": "mailer",
+    "logging_enabled": "false",
+    "name": "ExampleSendEmail",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "ExampleSendEmail.js"
+}
