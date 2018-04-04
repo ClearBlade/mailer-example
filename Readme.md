@@ -15,9 +15,9 @@ You must have an email account, such as GMail, and its STMP Host address.
 
 ## Usage
 
-Enter your configuration:
+Enter your configuration in the `ExampleSendEmail` Code Service:
 
-~~~javascript
+```
 
     const ORIGIN_EMAIL_ADDRESS ="<ORIGIN_EMAIL_ADDRESS" // ex. youremail@gmail.com
     const ORIGIN_EMAIL_PASSWORD = "<ORIGIN_EMAIL_PASSWORD>" // ex. "K1LL3RPW"
@@ -25,7 +25,7 @@ Enter your configuration:
     const host = "<HOST>" // ex. "smtp.gmail.com"
     const port = "<PORT>" // ex. "587"
 
-~~~
+```
 
 ### Code Services
 
