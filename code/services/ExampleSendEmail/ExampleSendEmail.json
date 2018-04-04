@@ -1,5 +1,5 @@
 {
-    "current_version": 53,
+    "current_version": 55,
     "dependencies": "mailer",
     "logging_enabled": "false",
     "name": "ExampleSendEmail",
