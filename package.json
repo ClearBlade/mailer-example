@@ -1,7 +1,5 @@
 {
-    "author": {
-        "email": "rob@clearblade.com"
-    },
+    "author": "Rob Reinold <rob@clearblade.com>",
     "clouds": [],
     "description": "Example for sending SMTP based emails from a ClearBlade service",
     "domains": [],
@@ -17,14 +15,27 @@
         "smtp",
         "alert",
         "notify",
-        "nofications"
+        "nofications",
+        "core"
     ],
     "asset_types":["Code Services"],
     "license": "MIT",
     "name": "mailer-example",
     "private": false,
-    "prog_lang": [],
+    "prog_lang": ["javascript"],
     "protocols": ["smtp"],
     "things": [],
-    "version": "1.0.0"
+    "version": "1.0.1",
+    "dependencies": {
+        "mailer": "latest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rreinold/mailer-example.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rreinold/mailer-example/issues"
+    },
+    "homepage": "https://github.com/rreinold/mailer-example#readme"
+    
 }

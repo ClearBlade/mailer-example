@@ -15,7 +15,7 @@ You must have an email account, such as GMail, and its STMP Host address.
 
 ## Usage
 
-Enter your configuration in the `ExampleSendEmail` Code Service:
+Enter your configuration in the `MailerConstants` Code Library:
 
 ```
 
@@ -27,11 +27,21 @@ Enter your configuration in the `ExampleSendEmail` Code Service:
 
 ```
 
+## Assets
+
+### Code Libraries
+
+`MailerConstants` - A constants library to have a centralized location for constants like API-key.
+
 ### Code Services
 
-`ExampleSendEmail` - sends an email with configuration from above
+#### Example
 
+`MailerExampleSend` - sends an email with configuration from above
+#### Test
 
-## Thank you
+`MailerTestSetup` - Tests if the constants for mailer library are set or not.
 
-Powered by ClearBlade Enterprise IoT Platform: [https://platform.clearblade.com](https://platform.clearblade.com)
+## API
+
+[docs.clearblade.com](https://docs.clearblade.com/v/3/4-developer_reference/platformsdk/mailer.js/)
