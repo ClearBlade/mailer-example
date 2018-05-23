@@ -15,7 +15,7 @@
         "smtp",
         "alert",
         "notify",
-        "nofications",
+        "notifications",
         "core"
     ],
     "asset_types":["Code Services"],
