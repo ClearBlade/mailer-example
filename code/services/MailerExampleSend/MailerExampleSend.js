@@ -1,12 +1,7 @@
-function ExampleSendEmail(req, resp){
-    
-    // TODO
-    const ORIGIN_EMAIL_ADDRESS ="<ORIGIN_EMAIL_ADDRESS" // ex. youremail@gmail.com
-    const ORIGIN_EMAIL_PASSWORD = "<ORIGIN_EMAIL_PASSWORD>" // ex. "K1LL3RPW"
-    const RECIPIENT_EMAIL_ADDRESS = "<RECIPIENT_EMAIL_ADDRESS>" // ex. "recipient@gmail.com"
-    const host = "<HOST>" // ex. "smtp.gmail.com"
-    const port = "<PORT>" // ex. "587"
-    
+/**
+ * This is an example service to send email using clearblade's core library mailer.
+ */
+function MailerExampleSend(req, resp){
     // Example Subject and Text
     var subject = "Geofence Breach - Sector Z - " + new Date()
     var text = "This is a test alert for your IoT solution powered by ClearBlade Platform"
